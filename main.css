@@ -21,8 +21,8 @@ html
 }
 .logo{
     color: black;
-    font-size: 20px;
-    padding: 10px 10px;
+    font-size: 40px;
+    padding: 10px 40px;
 }
 .hamburger{
   
@@ -98,6 +98,7 @@ display: none;
     padding: 0 30px;
 
  }
+
  .text-content{
     padding: 30px 30px;
     text-align: center;
@@ -122,9 +123,11 @@ display: none;
 
   
 .text-headinggg{
-    margin-top: 20px;
+    margin-top: 25px;
     font-size: 20px;
     font-style: italic;
+    width: 700px;
+    margin-left: 200px;
     
 }
 .run{
@@ -175,7 +178,7 @@ display: none;
 }
 .member-listt{
     background-color: rgb(18, 92, 8);
-    width: 350px;
+    width: 300px;
     margin-left: 50px;
     min-height: 300px;
     margin-top: 50px;
@@ -187,7 +190,7 @@ display: none;
 }
 .member-listtt{
     background-color:  rgb(21, 2, 43);
-    width: 350px;
+    width: 300px;
     margin-left: 50px;
     height: 300px;
     margin-top: 50px;
@@ -197,6 +200,7 @@ display: none;
     border-radius: 20px;
     
 }
+
 .icon{
     font-size: 40px;
     color: wheat;
@@ -214,7 +218,7 @@ display: none;
     margin-left: 150px;
     text-align: center;
     color:white;
-    
+    margin-top: 300px;
    
 }
     
@@ -293,7 +297,7 @@ font-weight:700;
 .howw{
     text-align: center;
     color: aliceblue;
-    margin-top: 1000px;
+    margin-top: 500px;
     animation-duration: 3s;
     animation-name: hello;
     animation-iteration-count:initial;
@@ -584,9 +588,25 @@ margin-top: 80px;
    text-align: center;
    font-size: 18px;
    margin-top: 50px;
-}
-@media  screen and (max-width:500px){
    
+}
+ 
+@media  screen and (max-width:600px){
+    .text-headinggg{
+        margin-top: 25px;
+        font-size: 20px;
+        font-style: italic;
+        width: 400px;
+        margin-left: -30px;
+        
+    }
+    .of{
+        font-size: 60px;
+        color: rgb(5, 73, 73);
+        font-weight: 800;
+        text-align: center;
+        margin-top: 30px;
+    }
     .sub-nav {
         margin-top: 1100px;
     }
@@ -622,9 +642,21 @@ margin-top: 80px;
         padding: 0 30px;
     
      }
+     .member-list{
+        background-color: rgb(21, 2, 43);
+        width: 300px;
+        margin-left: 50px;
+        min-height: 300px;
+        margin-top: 50px;
+        color: aliceblue;
+        text-align: center;
+        float: left;
+        border-radius: 20px;
+        overflow: hidden;
+    }
      .highttt{
         background: #4fb291;
-        width: 350px;
+        width: 330px;
         height: 400px;
         margin-left: 30px;
         border-radius: 20px;
@@ -635,7 +667,7 @@ margin-top: 80px;
     }
     .team{
         background: #243f56;
-        width: 350px;
+        width: 330px;
         height: 400px;
         margin-left: 70px;
         border-radius: 20px;
@@ -647,7 +679,7 @@ margin-top: 80px;
     .howw{
         text-align: center;
         color: aliceblue;
-        margin-top: 2800px;
+        margin-top: 1400px;
     }
     .howw{
     
@@ -665,7 +697,7 @@ margin-top: 80px;
         width: 400px;
         font-size: 30px;
         margin-top: 40px;
-        margin-left: 50px;
+        margin-left: 20px;
     }
     .go{
         text-align: center;
@@ -724,10 +756,11 @@ margin-top: 80px;
     }
     .hinh{
         background: url(Untitled-1.png) top center / cover;
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
         text-align: center;
         margin-top: 90px;
+        margin-left: 0;
        
     }
     .sam{
@@ -775,7 +808,7 @@ margin-top: 80px;
         margin-left: 10px;
     }
     .sunt{
-        width: 450px;
+        width: 400px;
         font-size: 20px;
         margin-top: 30px;
         color: aliceblue;
@@ -935,7 +968,7 @@ margin-top: 80px;
     }
     
 }
-@media  screen and (min-width:999px){
+@media  screen and (min-width:1300px){
     
     .text-headinggg{
         margin-top: 20px;
@@ -1065,7 +1098,7 @@ margin-top: 80px;
     .howw{
         text-align: center;
         color: aliceblue;
-        margin-top: 1000px;
+        margin-top: 400px;
     }
     .howw{
     
@@ -1381,7 +1414,7 @@ margin-top: 80px;
   
     to {
       margin-top: 0%;
-      width: 100%;
+      width: ;: 100%;
     }
 }
 @keyframes run {
@@ -1426,3 +1459,4 @@ margin-top: 80px;
     animation-direction:inherit ;
     overflow: hidden;
 }
+
