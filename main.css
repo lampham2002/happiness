@@ -6,7 +6,7 @@
     list-style-type: none;
    
 }
-html
+
 #main{}
 .headerr{
     width: 100%;
@@ -92,7 +92,7 @@ display: none;
     background: black;
     transition: 0.2s;
     overflow: hidden;
-    
+   
    
     
 }
@@ -160,8 +160,6 @@ display: none;
     width: 100%;
    
 }
-
-  
 .text-headinggg{
     margin-top: 25px;
     font-size: 20px;
@@ -186,8 +184,8 @@ display: none;
 
 }
 .buy:hover{
-    background-color:white;
-    color:black;
+    background-color:rgba(36,63,86,0.65);
+    color:rgb(238, 222, 222);
 }
 .slider{
    padding: 30px;
@@ -200,7 +198,7 @@ display: none;
 .member-list{
     background-color: rgb(21, 2, 43);
     width: 300px;
-    margin-left: 130px;
+    margin-left: 100px;
     min-height: 300px;
     margin-top: 50px;
     color: aliceblue;
@@ -256,26 +254,22 @@ display: none;
     height: 350px;
     width: 80%;
     overflow: hidden;
-    margin-left: 150px;
+    margin-left: 130px;
     text-align: center;
     color:white;
     margin-top: 300px;
    
 }
-    
-
 .welcome{
 padding: 40px;
 font-size: 40px;
 font-weight:700;
-
 }
 .welcomee{
     width: 800px;
     margin-left: 100px;
     font-size: 20px;
 }
-
 .of{
     font-size: 70px;
     color: rgb(5, 73, 73);
@@ -346,14 +340,10 @@ font-weight:700;
     animation-duration: 3s;
     animation-name: hello;
     animation-iteration-count:initial;
-    animation-direction: alternate;
-    
+    animation-direction: alternate; 
 }
-
 .howw{
-   
     background-image: linear-gradient(0deg, rgba(36,63,86,0.85), rgba(36,63,86,0.85)), url(jhhhhhh.jpg);
-    
     width: 100%;
     height: 500px;
     overflow: hidden;
@@ -383,9 +373,7 @@ font-weight:700;
     background-color:aqua;
     margin-left: 30px;
     overflow: hidden;
-    
 }
-
 .buyy:hover{
     background-color:white;
     color:black;
@@ -403,7 +391,7 @@ font-weight:700;
 }
 .page{
     float: left;
-    margin-left: 110px;
+    margin-left: 130px;
     overflow: hidden;
     
 }
@@ -452,7 +440,7 @@ margin-top: 80px;
 }
 .more{
    margin-top: 650px; 
-   margin-left: 100px;
+   margin-left: 150px;
    
 }
 .where{
@@ -470,7 +458,7 @@ margin-top: 80px;
 
 .class{
     font-size: 50px;
-    width: 500px;
+    width: 1000px;
     color: #4fb291;
     margin-top: 20px;
     
@@ -667,7 +655,7 @@ margin-top: 80px;
         font-size: 20px;
         font-style: italic;
         width: 400px;
-        margin-left: -30px;
+        margin-left: 20px;
         
     }
     .of{
@@ -700,7 +688,7 @@ margin-top: 80px;
     }
     .welcomee{
         width: 380px;
-        margin-left: 50px;
+        margin-left: 70px;
         font-size: 20px;
         
     }
@@ -716,7 +704,7 @@ margin-top: 80px;
      .member-list{
         background-color: rgb(21, 2, 43);
         width: 300px;
-        margin-left: 70px;
+        margin-left: 100px;
         min-height: 300px;
         margin-top: 50px;
         color: aliceblue;
@@ -728,7 +716,7 @@ margin-top: 80px;
     .member-listt{
         background-color: rgb(18, 92, 8);
         width: 300px;
-        margin-left: 70px;
+        margin-left: 100px;
         min-height: 350px;
         margin-top: 50px;
         color: aliceblue;
@@ -740,7 +728,7 @@ margin-top: 80px;
     .member-listtt{
         background-color:  rgb(21, 2, 43);
         width: 300px;
-        margin-left: 70px;
+        margin-left: 100px;
         height: 300px;
         margin-top: 50px;
         color: aliceblue;
@@ -753,7 +741,7 @@ margin-top: 80px;
         background: #4fb291;
         width: 330px;
         height: 350px;
-        margin-left: 40px;
+        margin-left: 50px;
         border-radius: 20px;
         margin-top: 50px;
         color: aliceblue;
@@ -764,7 +752,7 @@ margin-top: 80px;
         background: white;
         width: 330px;
         height: 350px;
-        margin-left: 40px;
+        margin-left: 50px;
         border-radius: 20px;
         margin-top: 50px;
         color: black;
@@ -775,7 +763,7 @@ margin-top: 80px;
         background: #243f56;
         width: 330px;
         height: 350px;
-        margin-left: 40px;
+        margin-left: 50px;
         border-radius: 20px;
         margin-top: 50px;
         color: aliceblue;
@@ -803,11 +791,11 @@ margin-top: 80px;
         width: 400px;
         font-size: 30px;
         margin-top: 40px;
-        margin-left: 40px;
+        margin-left: 70px;
     }
     .go{
         text-align: center;
-        margin-left: 40px;
+        margin-left: 70px;
     }
     .buyy{
         float: left;
@@ -840,7 +828,7 @@ margin-top: 80px;
     }
     .page{
         float: left;
-        margin-left: 150px;
+        margin-left: 180px;
         overflow: hidden;
     }
     .pro{
@@ -890,7 +878,7 @@ margin-top: 80px;
     }
     .more{
        margin-top: 1600px; 
-       margin-left: 170px;
+       margin-left: 200px;
        
     }
     .where{
@@ -911,13 +899,14 @@ margin-top: 80px;
         width: 500px;
         color: #4fb291;
         margin-top: 50px;
-        margin-left: 10px;
+        margin-left: 30px;
     }
     .sunt{
         width: 400px;
         font-size: 20px;
         margin-top: 30px;
         color: aliceblue;
+        margin-left: 30px;
     }
     .courses{
         margin-top: 40px;
@@ -953,7 +942,7 @@ margin-top: 80px;
     }
     .meet{
         text-align: center;
-        margin-left: 30px;
+        margin-left: 20px;
     }
     .the{
         color: black;
@@ -972,7 +961,7 @@ margin-top: 80px;
     .main{
         float: left;
         margin-top: 30px;
-        margin-left: 70px;
+        margin-left: 100px;
     }
     .img{
         margin-left: 20px;
@@ -1024,6 +1013,7 @@ margin-top: 80px;
     .using{
         font-size: 40px;
         margin-top: 50px;
+        margin-left: -10px;
     }
     .all {
         font-size: 30px;
@@ -1508,7 +1498,7 @@ margin-top: 80px;
         color: black;
         margin-top: 30px;
         border-radius: 50px;
-        padding: 10px;
+        padding: 20px;
         font-size: 20px;
         font-weight: 200;
         background-color:aqua;
@@ -1642,7 +1632,7 @@ margin-top: 80px;
 @keyframes of{
     from{
          opacity: 100%;
-    }
+    }      
        to{
         opacity: 0;
        }
@@ -1670,7 +1660,19 @@ margin-top: 80px;
        }
     
 }
-@media  screen and (min-width:850px) and (max-width:1000px){
+@media screen and (min-width:850px) and (max-width:1000px){     
+    .headerr{
+        width: 100%; 
+        height: 70px;
+        background: #f2f2f2;
+        left: 0;
+        top: 0;
+        right: 0;
+        position: fixed;
+        display: flex;
+        
+    
+    }
     .mobile{
         margin-left: 300px;
         padding: 20px;
@@ -1682,7 +1684,7 @@ margin-top: 80px;
         font-size: 30px;
         font-style: italic;
         width: 800px;
-        margin-left: 0px;
+        margin-left: -30px;
     
     }
     .member-list{
@@ -1757,7 +1759,7 @@ margin-top: 80px;
     }
     .welcomee{
         width: 700px;
-        margin-left: 100px;
+        margin-left: 90px;
         font-size: 20px;
        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         
@@ -1840,11 +1842,11 @@ margin-top: 80px;
         width: 800px;
         font-size: 30px;
         margin-top: 40px;
-        margin-left: 50px;
+        margin-left: 30px;
     }
     .go{
         text-align: center;
-        margin-left: 300px;
+        margin-left: 230px;
     }
     .buyy{
         float: left;
@@ -1859,7 +1861,6 @@ margin-top: 80px;
         overflow: hidden;
         
     }
-    
     .buyy:hover{
         background-color:white;
         color:black;
@@ -1885,11 +1886,11 @@ margin-top: 80px;
         width: 500px;
         color:#4fb291 ;
         font-weight: 100;
-        margin-left :100px;
+        margin-left :50px;
     }
     .Skills{
         margin-top: 30px;
-        margin-left: 250px;
+        margin-left: 50px;
         font-size: 30px;
         
     }
@@ -1897,7 +1898,7 @@ margin-top: 80px;
         width: 600px;
         font-size: 30px;
         margin-top: 30px;
-        margin-left: 100px;
+        margin-left: 50px;
     }
     .hinh{
         background: url(Untitled-1.png) top center / cover;
@@ -1966,6 +1967,7 @@ margin-top: 80px;
     }
     .courses{
         margin-top: 40px;
+       
     }
     .Excepteur{
         margin-left: 300px;
@@ -2018,7 +2020,7 @@ margin-top: 80px;
         font-weight: 400;
         margin-top: 40px;
         font-weight: 800;
-        margin-left: 100px;
+        margin-left: 50px;
         
     }
     .our{
@@ -2026,28 +2028,31 @@ margin-top: 80px;
         margin-top:20px ;
         font-size: 50px;
         font-weight: 800;
-        margin-left: 100px;
+        margin-left: 50px;
     }
     .main{
         float: left;
         margin-top: 30px;
-        margin-left: 50px;
+        margin-left: 30px;
     }
     .img{
-        margin-left:0;
+        margin-left:-30px;
         width: 200px;
-   
+        margin-left: 35px;
     }
     .mary{
         color:black;
         font-size: 30px;
         text-align: center;
         margin-top: 20px;
+       margin-left: 30px;
+        
     }
     .maryy{
         color:#4fb291;
         font-size: 20px;
         margin-top: 20px;
+        margin-left: 20px;
     }
     .glavi{
         font-size: 20px;
@@ -2072,7 +2077,7 @@ margin-top: 80px;
         background: #4fb291;
         color: white;
         width: 100%;
-        height: 600px;
+        height: 550px;
         overflow: hidden;
         margin-left: 0;
         margin-top: 50px;
@@ -2093,7 +2098,7 @@ margin-top: 80px;
     .form-controll{
         color: black;
         padding: 20px ;
-        font-size: 20px;
+        font-size: 15px;
         border-bottom: 30px;
         border-radius: 20px;
         margin-top: 30px;
@@ -2140,7 +2145,7 @@ margin-top: 80px;
         background-color: #243f56;
         width: 100%;
         margin-left: 0;
-        height: 300px;
+        height: 250px;
         text-align: center;
         color: aliceblue;
     }
@@ -2152,7 +2157,7 @@ margin-top: 80px;
     .dayy {
        text-align: center;
        font-size: 20px;
-       margin-top: 60px;
+       margin-top: 50px;
     }
     .so{
         padding: 30px 0;
@@ -2162,6 +2167,18 @@ margin-top: 80px;
     
 }
 @media screen and (min-width:400px) and (max-width:550px){
+    .headerr{
+        width: 100%;
+        height: 70px;
+        background: #f2f2f2;
+        left: 0;
+        top: 0;
+        right: 0;
+        position: fixed;
+        display: flex;
+        
+    
+    }
   
         .mobile{
             margin-left: 80px;
@@ -2179,7 +2196,7 @@ margin-top: 80px;
         .header{
             background: white;
             height: 50px;
-            width: 99.7%;
+            width: 100%;
             left: 0;
             right: 0;
             top: 0;
@@ -2192,7 +2209,7 @@ margin-top: 80px;
             font-size: 20px;
             font-style: italic;
             width: 400px;
-            margin-left: -30px;
+            margin-left: -10px;
             
         }
         .of{
@@ -2241,7 +2258,7 @@ margin-top: 80px;
          .member-list{
             background-color: rgb(21, 2, 43);
             width: 300px;
-            margin-left: 50px;
+            margin-left: 70px;
             min-height: 300px;
             margin-top: 50px;
             color: aliceblue;
@@ -2253,7 +2270,7 @@ margin-top: 80px;
         .member-listt{
             background-color: rgb(18, 92, 8);
             width: 300px;
-            margin-left: 50px;
+            margin-left: 70px;
             min-height: 350px;
             margin-top: 50px;
             color: aliceblue;
@@ -2265,7 +2282,7 @@ margin-top: 80px;
         .member-listtt{
             background-color:  rgb(21, 2, 43);
             width: 300px;
-            margin-left: 50px;
+            margin-left: 70px;
             height: 300px;
             margin-top: 50px;
             color: aliceblue;
@@ -2444,6 +2461,7 @@ margin-top: 80px;
             font-size: 20px;
             margin-top: 30px;
             color: aliceblue;
+            margin-left: 20px;
         }
         .courses{
             margin-top: 40px;
@@ -2606,7 +2624,7 @@ margin-top: 80px;
         }
         
     }
-    @media screen and (min-width:300px) and (max-width:400px){
+@media screen and (min-width:300px) and (max-width:400px){
   
         .mobile{
             margin-left: 80px;
@@ -3066,5 +3084,4 @@ margin-top: 80px;
         }
         
     }    
-
-
+      
