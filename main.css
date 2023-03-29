@@ -18,7 +18,7 @@
     right: 0;
     position: fixed;
     display: flex;
-    
+    overflow: hidden;
 
 }
 .header-logo{
@@ -96,7 +96,7 @@ display: none;
    
     
 }
-.nav.active{
+.nav.active{  
     height: 450px;
 }
 @media only screen and (max-width:2000px){
@@ -104,7 +104,7 @@ display: none;
    .nav{
     max-width: 200px;
     position: absolute;
-   height: 100%;
+   height: 0;
     background: rgb(82, 81, 81);
     top: 70px;
     left: 0;
@@ -117,7 +117,7 @@ display: none;
    }
    
    .nav.active{
-    height: 0;
+    height:100%;
 }
 
    
@@ -135,7 +135,7 @@ display: none;
     height: 500px;
     overflow: hidden;
     padding: 0 30px;
- 
+   
 
  }
 
@@ -148,10 +148,12 @@ display: none;
     font-size: 50px;
     margin-top: 100px;
     font-weight: 100;
+    
     animation-duration: 3s;
     animation-name: slidein;
-    animation-iteration-count:inherit;
-    animation-direction: alternate;
+    animation-iteration-count:initial;
+    animation-direction: alternate ;
+
 }
 .text-headingg{
     font-size: 50px;
@@ -184,14 +186,13 @@ display: none;
 
 }
 .buy:hover{
-    background-color:rgba(36,63,86,0.65);
+    background-color:rgba(223, 23, 163, 0.65);
     color:rgb(238, 222, 222);
 }
 .slider{
    padding: 30px;
    animation-name: off;
-    animation-duration: 2s;
-    animation-direction:inherit ;
+    
     width: 100%;
 }
 
@@ -258,18 +259,24 @@ display: none;
     text-align: center;
     color:white;
     margin-top: 300px;
+    border-radius: 10px;
    
 }
 .welcome{
 padding: 40px;
 font-size: 40px;
 font-weight:700;
+animation-duration: 2s;
+    animation-direction:inherit ;
+    animation-delay: 8s;
 }
 .welcomee{
     width: 800px;
     margin-left: 100px;
     font-size: 20px;
+    
 }
+
 .of{
     font-size: 70px;
     color: rgb(5, 73, 73);
@@ -341,6 +348,7 @@ font-weight:700;
     animation-name: hello;
     animation-iteration-count:initial;
     animation-direction: alternate; 
+    animation-delay: 15s;
 }
 .howw{
     background-image: linear-gradient(0deg, rgba(36,63,86,0.85), rgba(36,63,86,0.85)), url(jhhhhhh.jpg);
@@ -450,7 +458,7 @@ margin-top: 80px;
     padding: 30px 20px;
     margin-top: 50px;
     background-image: linear-gradient(0deg, rgba(36,63,86,0.65), rgba(36,63,86,0.65)),url(himh.jpg);
-    
+    border-radius: 10px;
 }
 .Excepteur{
     margin-left: 30px;
@@ -522,12 +530,12 @@ margin-top: 80px;
 .main{
     float: left;
     margin-top: 30px;
-    margin-left: 70px;
+    margin-left:70px;
 }
 .img{
     margin-left: 20px;
     width: 250px;
-
+    border-radius: 20%;
 }
 .mary{
     color:black;
@@ -564,9 +572,10 @@ margin-top: 80px;
     width: 90%;
     height: 400px;
     overflow: hidden;
-    margin-left: 50px;
+    margin-left: 70px;
     margin-top: 50px;
     padding: 30px;
+    border-radius: 10px;
 }
 .using{
     font-size: 40px;
@@ -609,10 +618,11 @@ margin-top: 80px;
 .with {
     background-color: #243f56;
     width: 90%;
-    margin-left: 50px;
+    margin-left: 70px;
     height: 300px;
     text-align: center;
     color: aliceblue;
+    border-radius: 10px;
 }
 .day {
     font-size: 25px;
@@ -1178,6 +1188,7 @@ margin-top: 80px;
      }
      .hight{
         margin-left: 350px;
+        float: left;
      }
      .hightt{
         background: white;
@@ -1203,6 +1214,7 @@ margin-top: 80px;
     }
     .hightttt{
         margin-left: 350px;
+        float: left;
     }
     .team{
         background: #243f56;
@@ -1218,7 +1230,7 @@ margin-top: 80px;
     .howw{
         text-align: center;
         color: aliceblue;
-        margin-top: 500px;
+        margin-top: 900px;
     }
     .howw{
     
@@ -1561,112 +1573,10 @@ margin-top: 80px;
         font-size: 20px;
     }
 }
-@keyframes hello {
-    from {
-      margin-top: 50%;
-      width: 0%;
-    }
-  
-    to {
-      margin-top: 0%;
-      width: ;: 100%;
-    }
-}
-@keyframes run {
-    from {
-      margin-left: 80%;
-      width: 0%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-}
-.hight{
-    animation-name: run;
-    animation-duration: 2s;
-    animation-direction:inherit ;
-    overflow: hidden;
-    
-}
-@keyframes slidein {
-    from {
-      margin-top: 50%;
-      
-    }
-  
-    to {
-      margin-top: 0%;
-      width: 100%;
-    }
-}
-.class{
-    animation-name: slidein;
-    animation-duration: 2s;
-    animation-direction:inherit ;
-    overflow: hidden;
-    
-}
-.using {
-    animation-name: slidein;
-    animation-duration: 2s;
-    animation-direction:inherit ;
-    overflow: hidden;
-}
-@keyframes from {
-    from {
-      margin-left: 500%;
-      
-    }
-  
-    to {
-      margin-left: 0;
-      
-    }
-}
-.welcome{
-    animation-name: from;
-    animation-duration: 3s;
-    animation-direction:inherit ;
-}
-.of{
-    animation-name: of;
-    animation-duration: 3s;
-    animation-direction:inherit ;  
-}
-@keyframes of{
-    from{
-         opacity: 100%;
-    }      
-       to{
-        opacity: 0;
-       }
-    
-}
-.pro{
-    animation-name:page;
-    animation-duration: 3s;
-    animation-direction:inherit ;
-}
-@keyframes page{
-    from{
-        margin-left: 300%;
-    }
-    to{
-        margin-left: 0;
-    }
-}
-@keyframes off{
-    from{
-         margin-left: -100%;
-    }
-       to{
-        margin-left: 100% 0;
-       }
-    
-}
-@media screen and (min-width:800px) and (max-width:950px){     
+
+ 
+
+@media screen and (min-width:800px) and (max-width:950px){  
     .headerr{
         width: 100%; 
         height: 70px;
@@ -3097,3 +3007,26 @@ margin-top: 80px;
         
     }    
       
+    
+    .contaner  .toggle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 90px;
+        height: 50px;
+        background-color: rgb(18, 92, 8);
+        border-radius: 30px;
+    }
+    .contaner  .toggle  .toggle-button{
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius:50%;
+        cursor: pointer;
+    }
+    .contaner  .toggle.active {
+        background: chocolate;
+    } 
