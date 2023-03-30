@@ -7,7 +7,7 @@
    
 }
 
-#main{}
+
 .headerr{
     width: 100%;
     height: 70px;
@@ -15,10 +15,10 @@
     left: 0;
     top: 0;
     right: 0;
-    position: fixed;
     display: flex;
+    position: fixed;
     
-
+  z-index: 1;
 }
 .header-logo{
     padding: 20px;
@@ -147,12 +147,8 @@ display: none;
     font-size: 50px;
     margin-top: 100px;
     font-weight: 100;
-    
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count:initial;
-    animation-direction: alternate ;
 
+    
 }
 .text-headingg{
     font-size: 50px;
@@ -342,12 +338,8 @@ animation-duration: 2s;
 .howw{
     text-align: center;
     color: aliceblue;
-    margin-top: 500px;
-    animation-duration: 3s;
-    animation-name: hello;
-    animation-iteration-count:initial;
-    animation-direction: alternate; 
-    animation-delay: 15s;
+    margin-top: 1000px;
+    
 }
 .howw{
     background-image: linear-gradient(0deg, rgba(36,63,86,0.85), rgba(36,63,86,0.85)), url(jhhhhhh.jpg);
@@ -607,7 +599,7 @@ margin-top: 80px;
 }
 .save {
     float:right;
-    margin-top: -200px;
+    margin-top: -150px;
     margin-right: 150px;
 }
 .cancel {
@@ -618,7 +610,7 @@ margin-top: 80px;
     background-color: #243f56;
     width: 90%;
     margin-left: 70px;
-    height: 300px;
+    height: 150px;
     text-align: center;
     color: aliceblue;
     border-radius: 10px;
@@ -630,7 +622,7 @@ margin-top: 80px;
 .dayy {
    text-align: center;
    font-size: 18px;
-   margin-top: 50px;
+   margin-top: -2px;
    
 }
  
