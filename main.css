@@ -62,6 +62,8 @@
     margin: 6px 0;
     margin-right: 20px;
 }
+
+
 .nav ul{
     
 display: none;
@@ -72,6 +74,7 @@ display: none;
     padding: 10px 20px;
     display: block;
     border-radius: 50px;
+    
 }
 .nav ul li a:hover{
     background-color: aliceblue;
@@ -99,7 +102,7 @@ display: none;
     height: 450px;
 }
 @media only screen and (max-width:2000px){
-    
+     
    .nav{
     max-width: 200px;
     position: absolute;
@@ -114,6 +117,10 @@ display: none;
    
     
    }
+   .nav ul li a:hover{
+    background-color: aliceblue;
+    color: black;
+}
    
    .nav.active{
     height:100%;
@@ -178,7 +185,7 @@ display: none;
     font-size: 20px;
     font-weight: 200;
     background-color:aqua;
-
+   
 }
 .buy:hover{
     background-color:rgba(223, 23, 163, 0.65);
@@ -1581,7 +1588,7 @@ margin-top: 80px;
     
     }
     .mobile{
-        margin-left: 300px;
+        margin-left: 200px;
         padding: 20px;
     }
    
@@ -1731,7 +1738,7 @@ margin-top: 80px;
     .howw{
         text-align: center;
         color: aliceblue;
-        margin-top: 500px;
+        margin-top: 900px;
     }
     .howw{
     

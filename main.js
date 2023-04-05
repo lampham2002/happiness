@@ -24,7 +24,7 @@ ScrollReveal().reveal('.img',{origin: 'bottom'})
 
 ScrollReveal().reveal('.save, .using, .all',{origin: 'top'})
 
-ScrollReveal().reveal('.text-content',{origin: 'bottom'})
+ScrollReveal().reveal('.text-content',{origin: 'top'})
 
-ScrollReveal().reveal('.class', {origin: 'opacity' })
+ScrollReveal().reveal('.class', {origin: 'opacty' })
     
