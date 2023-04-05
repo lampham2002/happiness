@@ -141,6 +141,7 @@ display: none;
     height: 500px;
     overflow: hidden;
     padding: 0 30px;
+    
    
 
  }
@@ -353,10 +354,12 @@ animation-duration: 2s;
     width: 100%;
     height: 500px;
     overflow: hidden;
+   
 }
 .coa{
     margin-top: 100px;
     font-size: 50px;
+    
 }
 .simple{
     width: 700px;
@@ -450,8 +453,8 @@ margin-top: 80px;
    
 }
 .where{
-    margin-left: 70px;
-    width: 90%;
+    
+    width: 100%;
     height: 700px;
     padding: 30px 20px;
     margin-top: 50px;
@@ -459,7 +462,7 @@ margin-top: 80px;
     border-radius: 10px;
 }
 .Excepteur{
-    margin-left: 30px;
+    margin-left: 70px;
 }
 
 .class{
