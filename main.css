@@ -161,9 +161,10 @@ display: none;
     
 }
 .run{
-    margin-top: 30px;
+    margin-top: 50px;
     border-width: 5px;
     color: black;
+    margin-left: -15px;
 }
 .buy{
     color: black;
